@@ -16,7 +16,7 @@ function App() {
   ];
 
   const model = new OpenAI({
-    openAIApiKey: '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',
+    openAIApiKey: 'YOUR_API_KEY',
   });
   // const memory = new BufferWindowMemory({ k: 10 });
   const memory = new BufferMemory({
